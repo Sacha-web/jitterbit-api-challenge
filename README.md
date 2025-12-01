@@ -8,49 +8,6 @@ Este projeto consiste em uma API RESTful desenvolvida em **Node.js** e **Express
 A API implementa a **transformação de dados (mapping)** obrigatória, convertendo o JSON de entrada do cliente para o modelo de dados exigido para persistência no MongoDB.
 
 ---
-## 🚀 Tecnologias Utilizadas
-
-* **Linguagem:** JavaScript (Node.js)
-* **Framework:** Express
-* **Banco de Dados:** MongoDB (com Mongoose)
-* **Ferramentas:** Nodemon (para desenvolvimento) e Dotenv (para variáveis de ambiente).
-
----
-## 🛠️ Como Executar a Aplicação Localmente
-
-Para rodar este projeto em sua máquina:
-
-### 1. Pré-requisitos
-Certifique-se de ter o **Node.js** e o **npm** instalados.
-
-### 2. Instalação das Dependências
-Abra o terminal na pasta raiz do projeto e execute:
-```bash
-npm install
-
-### 3. Configuração do Banco de Dados ###
-
-Crie um arquivo na raiz do projeto chamado .env e configure as variáveis de ambiente com suas credenciais do MongoDB Atlas: MONGO_URI=mongodb+srv://<db_user>:<db_password>@<cluster_url>
-PORT=3000
-(nota:Este arquivo .env foi ignorado pelo .gitignore)
-
-Com certeza! Você está sendo super eficiente.
-
-Aqui está todo o conteúdo do README.md em um bloco único. Basta copiar este texto e colar ele integralmente no editor do README.md no GitHub.
-
-Lembre-se de substituir o [Seu Nome Completo] e [Seu LinkedIn] com suas informações pessoais.
-Markdown
-
-# 💻 Desafio API de Pedidos Jitterbit
-
-## Descrição do Projeto
-
-Este projeto consiste em uma API RESTful desenvolvida em **Node.js** e **Express**, utilizando **MongoDB** como banco de dados (via Mongoose). A API foi criada para atender aos requisitos do Desafio Jitterbit, focando no gerenciamento de pedidos (operações CRUD).
-
-**Funcionalidade Principal:**
-A API implementa a **transformação de dados (mapping)** obrigatória, convertendo o JSON de entrada do cliente para o modelo de dados exigido para persistência no MongoDB.
-
----
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -81,7 +38,7 @@ Snippet de código
 MONGO_URI=mongodb+srv://<db_user>:<db_password>@<cluster_url>
 PORT=3000
 
-(Nota: Este arquivo .env foi ignorado pelo .gitignore, mantendo suas credenciais seguras.)
+(Nota: Este arquivo .env foi ignorado pelo .gitignore, mantendo minhas credenciais seguras.)
 
 4. Inicializar o Servidor
 
@@ -92,8 +49,6 @@ npm run dev
 
 O servidor estará rodando em http://localhost:3000.
 
-🗺️ Endpoints da API
-Todas as operações retornam as respostas HTTP adequadas (201 Created, 200 OK, 204 No Content, 404 Not Found).
 ## 🗺️ Endpoints da API
 
 Todas as operações foram implementadas e testadas com as respostas HTTP adequadas (201 Created, 200 OK, 204 No Content, 404 Not Found).
